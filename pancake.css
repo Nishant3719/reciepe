@@ -1,0 +1,101 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ff9800;
+    padding: 10px;
+    color: white;
+}
+
+h1, h2, h3 {
+    color: #ff9800;
+    margin-left: 20px;
+}
+
+p {
+    margin: 20px;
+}
+
+/* Navbar Styles */
+.navbar {
+    
+    background-color: #ff9800;
+    padding: 10px;
+}
+
+.navbar .logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    list-style-type: none;
+    padding: 0;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.nav-links ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+/* main img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+} */
+
+
+
+/* Subscription Form */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+footer form {
+    margin: 10px 0;
+}
+
+footer form input[type="text"] {
+    padding: 10px;
+    width: 60%;
+    max-width: 300px;
+}
+
+footer form button {
+    padding: 10px;
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
